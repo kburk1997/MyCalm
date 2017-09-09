@@ -1,0 +1,31 @@
+{
+  "name": "mycalm-backend",
+  "version": "1.0.0",
+  "description": "Backend for mycalm app",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "http": "0.0.0",
+    "request": "^2.81.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kburk1997/MyCalm.git"
+  },
+  "keywords": [
+    "anxiety",
+    "giphy"
+  ],
+  "author": "Kathleen Burkhardt",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kburk1997/MyCalm/issues"
+  },
+  "homepage": "https://github.com/kburk1997/MyCalm#readme"
+}
