@@ -10,7 +10,6 @@ import {
   StatusBar,
 } from 'react-native';
 import { Constants } from 'expo';
-import {Emoji} from 'react-native-emoji' // 1.2.0
 const giphy_key = 'xxxxx';
 
 var tag_list = [
@@ -109,10 +108,10 @@ export default class App extends Component {
         </View>
         <View style={styles.container2}>
           <View style={styles.buttonContainer}>
-            <Button title="Yes" onPress={this._handleYesButtonPress} />
+            <Button title="Yes" color="#090" onPress={this._handleYesButtonPress} />
           </View>
           <View style={styles.buttonContainer}>
-            <Button title="No" onPress={this._handleNoButtonPress} />
+            <Button title="No" color="#f13" onPress={this._handleNoButtonPress} />
           </View>
         </View>
 
